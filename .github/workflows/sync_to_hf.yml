@@ -18,4 +18,4 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           # Replace 'username' and 'space-name' with your actual info
-          git push https://username:$HF_TOKEN@huggingface.co/spaces/nuna-bit/textblob-sentiment-demo main
+          git push -f https://nuna-bit:$HF_TOKEN@huggingface.co/spaces/nuna-bit/textblob-sentiment-demo main

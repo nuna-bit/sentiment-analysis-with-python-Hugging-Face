@@ -1,5 +1,5 @@
 ---
-title: My Sentiment Analyzer
+title: Textblob Sentiment Demo
 emoji: 🦀
 colorFrom: blue
 colorTo: red

@@ -1,4 +1,4 @@
 textblob
-gradio>=5.7.1
-huggingface_hub>=1.0.0
+gradio<5.7.1
+huggingface_hub<1.0
 setuptools

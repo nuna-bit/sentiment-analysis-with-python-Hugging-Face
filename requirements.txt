@@ -1,5 +1,4 @@
 textblob
-gradio<5.7.1
-huggingface_hub<1.0
+gradio
+huggingface-hub
 setuptools
-audioop-lts

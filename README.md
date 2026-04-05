@@ -7,6 +7,7 @@ sdk: gradio
 sdk_version: 4.44.0  # Or 5.23.1 if you want the latest
 app_file: app.py
 pinned: false
+python_version: 3.11
 ---
 
 # Sentiment Analysis with Python & Hugging Face

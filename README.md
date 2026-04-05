@@ -9,11 +9,11 @@ app_file: app.py
 pinned: false
 ---
 
-# 📊 Sentiment Analysis with Python & Hugging Face
+# Sentiment Analysis with Python & Hugging Face
 
 [![Open in Hugging Face Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/nuna-bit/textblob-sentiment-demo)
 
-## 🚀 Overview
+## Overview
 The primary objective of this repository is to demonstrate a modern AI development workflow: from local experimentation to automated cloud deployment. This project showcases how to use **TextBlob** for sentiment analysis and **GitHub Actions** to automatically sync code with **Hugging Face Spaces**.
 
 ### Live Demo
@@ -22,13 +22,13 @@ You can try the sentiment analyzer directly in your browser without installing a
 
 ---
 
-## 🛠️ Technical Details
+## Technical Details
 This project uses a rule-based Natural Language Processing (NLP) approach.
 - **Library:** TextBlob (built on NLTK).
 - **Metric:** Calculates "Polarity" (a score from -1.0 to 1.0) to determine if text is Positive, Negative, or Neutral.
 - **CI/CD:** Automated deployment via GitHub Actions (syncing `app.py` and `requirements.txt`).
 
-## 💻 Local Setup & Usage
+## Local Setup & Usage
 
 ### Prerequisites
 - Python 3.10 or newer.
@@ -46,7 +46,7 @@ This project uses a rule-based Natural Language Processing (NLP) approach.
    ```bash
    python sentiment_analysis.py
 
-## 📂 Project Structure
+## Project Structure
 - `app.py`: The Gradio web interface running on Hugging Face
 - `sentiment_analysis.py`: The core logic for local command-line usage
 - `.github/workflows/`: Automation script for syncing with the cloud
@@ -54,7 +54,7 @@ This project uses a rule-based Natural Language Processing (NLP) approach.
    
 ---
 
-## 📄 License 
+## License 
 This project is licensed under the MIT License. It is intended for educational purposes and personal use. For any commercial use or redistribution, please refer to the terms mentioned in the license file.
 
 ---
